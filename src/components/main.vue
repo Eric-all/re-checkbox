@@ -5,7 +5,6 @@
     :name="name"
     :disabled="disabled"
     :checked="defaultchecked"
-    :value="defaultchecked"
     @click="handleClick"
     :class="prefixCls + '-input'"
   >
