@@ -8,7 +8,8 @@
 </template>
 
 <script>
-import Checkbox from '../../src'
+import '../../lib/checkbox.css'
+import Switch from '../../lib/checkbox'
 export default {
   name: 'App',
   components: {
